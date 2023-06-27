@@ -3,11 +3,19 @@
         width: 1320px;
         background-color: red;
     }
+    .team-padding .team-profile{
+        padding-top: 160px;
+        padding-bottom: 130px;
+    }
 }
 @media (min-width:1200px) and (max-width:1399px){
     .container{
         width: 1140px;
         background-color: green;
+    }
+    .team-profile .team-padding{
+        padding-top: 160px;
+        padding-bottom: 130px;
     }
 }
 @media (min-width:992px) and (max-width:1199px){
@@ -21,11 +29,17 @@
         width: 720px;
         background-color: yellow;
     }
+    .team-profile .col-4{
+        width: 50%;
+    }
 }
 @media (min-width:576px) and (max-width:767px){
     .container{
         width: 540px;
         background-color: pink;
+    }
+    .team-profile .col-4{
+        width: 100%;
     }
 }
 @media (max-width:575px){
@@ -35,6 +49,9 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+    .team-profile .col-4{
+        width: 100%;
+    }
 }
-```
-```
+
+

@@ -263,7 +263,7 @@ a{
 /* tbody */
 /* beneer */
 .single-slider{
-    background-image: url(../img/h1_hero.jpg.webp);
+    /* background-image: url(../img/h1_hero.jpg.webp); */
     position: relative;
     min-height: 700px;
     display: flex;

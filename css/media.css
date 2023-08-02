@@ -1,138 +1,57 @@
-@media (min-width:1400px){
-    .container{
+@media (min-width:1400px) {
+    .container {
         width: 1320px;
-        background-color: red;
-    }
-    .team-padding{
-        padding-top: 160px;
-        padding-bottom: 130px;
-    }
-    header .header-top{
-        padding: 13px 80px;
-    }
-    header .header-bottom{
-        padding: 0px 80px;
-    }
-}
-@media (min-width:1200px) and (max-width:1399px){
-    .container{
-        width: 1140px;
-        background-color: green;
-    }
-    .team-padding{
-        padding-top: 160px;
-        padding-bottom: 130px;
-    }
-    header .header-top{
-        padding: 13px 80px;
-    }
-    header .header-bottom{
-        padding: 0px 80px;
-    }
-}
-@media (min-width:992px) and (max-width:1199px){
-    .container{
-        width: 960px;
-        background-color: blue;
-    }
-    .team-padding{
-        padding-top: 110px;
-        padding-bottom: 80px;
-    }
-    header .header-area .header-top{
-        padding: 13px 50px;
-    }
-    header .header-bottom{
-        padding: 0px 50px;
-    }
-    
-}
-@media (min-width:768px) and (max-width:991px){
-    .container{
-        width: 720px;
-        background-color: yellow;
-    }
-    .team-profile .col-4{
-        width: 50%;
-    }
-    .team-padding{
-        padding-top: 100px;
-        padding-bottom: 80px;
-    }
-    header .header-top{
-        padding: 13px 50px;
-    }
-    header .header-bottom{
-        padding: 22px;
-    }
-    header .header-top{
-        display: none;
-    }
-    header .header-bottom .main-manu{
-        display: none;
-    }
-    header .logo{
-        padding-bottom: 50px;
-    }
-    
-}
-@media (min-width:576px) and (max-width:767px){
-    .container{
-        width: 540px;
-        background-color: pink;
-    }
-    .team-profile .col-4{
-        width: 100%;
-    }
-    .team-padding{
-        padding-top: 100px;
-        padding-bottom: 80px;
-    }  
-    header .header-top{
-        padding: 13px 20px;
-    }
-    header .header-bottom{
-        padding: 22px 20px;
-    }
-    header .header-top{
-        display: none;
-    }
-    header .header-bottom .main-manu{
-        display: none;
-    }
-    header .logo{
-        padding-bottom: 50px;
-    }
-    header .header-bottom .col-2{
-        width: 50%;
+        hgug-color: red;
     }
 
 }
-@media (max-width:575px){
-    .container{
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .container {
+        width: 1140px;
+        hgug-color: green;
+    }
+
+    
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .container {
+        width: 960px;
+        hgug-color: aqua;
+    }
+
+    
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        width: 720px;
+        hgug-color: rgb(28, 28, 245);
+    }
+
+    
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .container {
+        width: 540px;
+        hgug-color: rgb(198, 255, 26);
+    }
+
+    
+}
+
+@media (max-width:575px) {
+    .container {
         width: 100%;
-        background-color: orange;
+        hgug-color: rgb(248, 157, 193);
         padding-left: 30px;
         padding-right: 30px;
     }
-    .team-profile .col-4{
-        width: 100%;
-    }
-    header .header-top{
-        display: none;
-    }
-    header .header-bottom .main-manu{
-        display: none;
-    }
-    header .header-bottom{
-        padding: 22px 20px;
-    }
-    header .logo{
-        padding-bottom: 50px;
-    }
-    header .header-bottom .col-2{
-        width: 50%;
-    }
+    
+
+
+
+    
 }
-
-
